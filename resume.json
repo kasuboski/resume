@@ -3,13 +3,13 @@
     "name": "Josh Kasuboski",
     "label": "",
     "picture": "",
-    "email": "kasuboski@wisc.edu",
+    "email": "josh.kasuboski@gmail.com",
     "phone": "(920) 980-6586",
     "website": "linkedin.com/in/joshkasuboski",
     "summary": "",
     "location": {
-      "address": "304 Princeton Ave Apt 2",
-      "postalCode": "53726",
+      "address": "110 N Livingston St.",
+      "postalCode": "53703",
       "city": "Madison",
       "countryCode": "US",
       "region": "Wisconsin"
@@ -18,15 +18,45 @@
   },
   "work": [
     {
+      "company": "PNC",
+      "position": "Technology Engineer",
+      "website": "",
+      "startDate": "October 2017",
+      "endDate": "current",
+      "summary": "",
+      "highlights": [
+        "Architected and built new backend with Go microservices connected with gRPC",
+        "Wrote Kubernetes yaml and developed GitOps strategy with Helm and Kustomize",
+        "Built ReactJS site to expose IaaS offering",
+        "Created code pipelines to enable Continous Delivery using GitOps"
+      ]
+    },
+    {
+      "company": "Visa Inc.",
+      "position": "Software Engineer",
+      "website": "",
+      "startDate": "June 2016",
+      "endDate": "October 2017",
+      "summary": "",
+      "highlights": [
+        "Led Android team for white label highly configurable mobile banking app",
+        "Explored POC integrating React Native into existing app",
+        "Integrated Javascript Engine into app to share code across iOS, Android, and web",
+        "Implemented network stack exposed to Javascript code in Android and iOS",
+        "Manage 100s of features for different banks"
+      ]
+    },
+    {
       "company": "Maverick Software Consulting",
       "position": "Software Engineer Intern",
       "website": "",
       "startDate": "October 2014 ",
-      "endDate": " present",
+      "endDate": " May 2016",
       "summary": "",
       "highlights": [
-        "Work with remote team at Thomson Reuters to translate PDF court documents to XML using Java and the Spring Framework",
-        "Create new features and update old including writing Junit tests"
+        "Worked with a remote team at Thomson Reuters to automate process of converting PDF court documents to XML using Java and the Spring framework",
+        "Reduced conversion time from days to minutes",
+        "Implemented client interface in HTML, Javascript and JSP"
       ]
     },
     {
@@ -37,21 +67,8 @@
       "endDate": " August 2015",
       "summary": "",
       "highlights": [
-        "Implemented fingerprint authentication for Android Visa Checkout SDK using Samsung Pass SDK that is being used in production.",
+        "Implemented fingerprint authentication for Android Visa Checkout SDK using Samsung Pass SDK",
         "Researched the FIDO UAF Protocol and implemented a RESTful FIDO Server using the Spring Framework"
-      ]
-    },
-    {
-      "company": "Starbrite DJ & Karoke",
-      "position": "Owner",
-      "website": "",
-      "startDate": "December 2005 ",
-      "endDate": " present",
-      "summary": "",
-      "highlights": [
-        "Manage music library and computer systems",
-        "Provide music for events",
-        "Designed website"
       ]
     }
   ],

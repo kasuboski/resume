@@ -14,7 +14,16 @@
       "countryCode": "US",
       "region": "Wisconsin"
     },
-    "profiles": []
+    "profiles": [
+      {
+        "network": "https://github.com/kasuboski",
+        "url": "https://github.com/kasuboski"
+      },
+      {
+        "network": "https://www.linkedin.com/in/joshkasuboski/",
+        "url": "https://www.linkedin.com/in/joshkasuboski/"
+      }
+    ]
   },
   "work": [
     {

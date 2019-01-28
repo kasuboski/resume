@@ -1,0 +1,115 @@
+{
+  "basics": {
+    "name": "Josh Kasuboski",
+    "label": "",
+    "picture": "",
+    "email": "kasuboski@wisc.edu",
+    "phone": "(920) 980-6586",
+    "website": "linkedin.com/in/joshkasuboski",
+    "summary": "",
+    "location": {
+      "address": "304 Princeton Ave Apt 2",
+      "postalCode": "53726",
+      "city": "Madison",
+      "countryCode": "US",
+      "region": "Wisconsin"
+    },
+    "profiles": []
+  },
+  "work": [
+    {
+      "company": "Maverick Software Consulting",
+      "position": "Software Engineer Intern",
+      "website": "",
+      "startDate": "October 2014 ",
+      "endDate": " present",
+      "summary": "",
+      "highlights": [
+        "Work with remote team at Thomson Reuters to translate PDF court documents to XML using Java and the Spring Framework",
+        "Create new features and update old including writing Junit tests"
+      ]
+    },
+    {
+      "company": "Visa Inc.",
+      "position": "Software Engineer Intern",
+      "website": "",
+      "startDate": "May 2015 ",
+      "endDate": " August 2015",
+      "summary": "",
+      "highlights": [
+        "Implemented fingerprint authentication for Android Visa Checkout SDK using Samsung Pass SDK that is being used in production.",
+        "Researched the FIDO UAF Protocol and implemented a RESTful FIDO Server using the Spring Framework"
+      ]
+    },
+    {
+      "company": "Starbrite DJ & Karoke",
+      "position": "Owner",
+      "website": "",
+      "startDate": "December 2005 ",
+      "endDate": " present",
+      "summary": "",
+      "highlights": [
+        "Manage music library and computer systems",
+        "Provide music for events",
+        "Designed website"
+      ]
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "University of Wisconsin - Madison",
+      "area": "Computer Engineering and Computer Sciences",
+      "studyType": "B.S.",
+      "startDate": "2012 ",
+      "endDate": " 2016",
+      "gpa": "3.59",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "Ruby on Rails",
+        "AngularJS",
+        "Meteor"
+      ]
+    },
+    {
+      "name": "Mobile Apps",
+      "level": "",
+      "keywords": [
+        "Android"
+      ]
+    },
+    {
+      "name": "Other Languages",
+      "level": "",
+      "keywords": [
+        "Java",
+        "Python",
+        "C",
+        "C++"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "German",
+      "fluency": "Intermediate"
+    }
+  ],
+  "interests": [],
+  "references": []
+}

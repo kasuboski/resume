@@ -8,7 +8,6 @@
     "website": "linkedin.com/in/joshkasuboski",
     "summary": "",
     "location": {
-      "address": "110 N Livingston St.",
       "postalCode": "53703",
       "city": "Madison",
       "countryCode": "US",
@@ -112,25 +111,25 @@
       "name": "Web Development",
       "level": "",
       "keywords": [
+        "ReactJS",
         "HTML",
         "CSS",
-        "Javascript",
-        "Ruby on Rails",
-        "AngularJS",
-        "Meteor"
+        "Javascript"
       ]
     },
     {
       "name": "Mobile Apps",
       "level": "",
       "keywords": [
-        "Android"
+        "Android",
+        "iOS"
       ]
     },
     {
       "name": "Other Languages",
       "level": "",
       "keywords": [
+        "Golang",
         "Java",
         "Python",
         "C",

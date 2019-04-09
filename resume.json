@@ -28,16 +28,28 @@
   "work": [
     {
       "company": "PNC",
-      "position": "Technology Engineer",
+      "position": "Senior Technology Engineer",
       "website": "",
-      "startDate": "October 2017",
+      "startDate": "March 2019",
       "endDate": "current",
       "summary": "",
       "highlights": [
-        "Architected and built new backend with Go microservices connected with gRPC",
-        "Wrote Kubernetes yaml and developed GitOps strategy with Helm and Kustomize",
-        "Built ReactJS site to expose IaaS offering",
-        "Created code pipelines to enable Continous Delivery using GitOps"
+        "Enabled declarative deploys for VMs and Containers",
+        "Created continuous delivery pipelines with ArgoCD",
+        "Developed Kubernetes GitOps strategy with Helm and Kustomize"
+      ]
+    },
+    {
+      "company": "PNC",
+      "position": "Technology Engineer",
+      "website": "",
+      "startDate": "October 2017",
+      "endDate": "March 2019",
+      "summary": "",
+      "highlights": [
+        "Architected and built new backend with Go microservices connected with gRPC and protocol buffers",
+        "Redesigned IaaS platform to simplify concepts and APIs",
+        "Built ReactJS site to expose IaaS offering"
       ]
     },
     {

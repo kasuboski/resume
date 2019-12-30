@@ -5,15 +5,19 @@
     "picture": "",
     "email": "josh.kasuboski@gmail.com",
     "phone": "(920) 980-6586",
-    "website": "linkedin.com/in/joshkasuboski",
+    "website": "https://www.joshkasuboski.com",
     "summary": "",
     "location": {
-      "postalCode": "53703",
-      "city": "Madison",
+      "postalCode": "78702",
+      "city": "Austin",
       "countryCode": "US",
-      "region": "Wisconsin"
+      "region": "Texas"
     },
     "profiles": [
+      {
+        "network": "https://www.joshkasuboski.com",
+        "url": "https://www.joshkasuboski.com"
+      },
       {
         "network": "https://github.com/kasuboski",
         "url": "https://github.com/kasuboski"
@@ -33,9 +37,9 @@
       "endDate": "current",
       "summary": "",
       "highlights": [
-        "Enabled declarative deploys for VMs and Containers",
-        "Created continuous delivery pipelines with ArgoCD",
-        "Developed Kubernetes GitOps strategy with Helm and Kustomize"
+        "Enabled declarative deployments for VMs and Containers",
+        "Developed Kubernetes GitOps strategy to enable safe and secure deploys for developers",
+        "Simplified app pipeline setup down to adding a webhook to democratize continuous integration and delivery"
       ]
     },
     {
@@ -48,7 +52,7 @@
       "highlights": [
         "Architected and built new backend with Go microservices connected with gRPC and protocol buffers",
         "Redesigned IaaS platform to simplify concepts and APIs",
-        "Built ReactJS site to expose IaaS offering"
+        "Let ReactJS site development to expose IaaS offering"
       ]
     },
     {

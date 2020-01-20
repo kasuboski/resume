@@ -25,7 +25,7 @@ jobs:
         git add --all
         git commit -m "Update resume from ${GITHUB_REPOSITORY}@${GITHUB_SHA}"
     - name: Push Changes
-    - uses: webfactory/ssh-agent@v0.2.0
+      uses: webfactory/ssh-agent@v0.2.0
       with:
         ssh-private-key: ${{ secrets.personal_site_key }}
       run: git push origin master

@@ -21,11 +21,14 @@ jobs:
     - name: Copy HTML to personal-site
       run: |
         cp resume/current.html personal-site/static/resume.html
-        cd personal-site
-        git add --all
-        git commit -m "Update resume from ${GITHUB_REPOSITORY}@${GITHUB_SHA}"
     - uses: webfactory/ssh-agent@v0.2.0
       with:
         ssh-private-key: ${{ secrets.personal_site_key }}
     - name: Push Changes
-      run: git push origin master
+      run: |
+        cd personal-site
+        git add --all
+        git config user.email "actions@github.com"
+        git config user.name "GitHub Actions"
+        git commit -m "Update resume from ${GITHUB_REPOSITORY}@${GITHUB_SHA}"
+        git push origin master

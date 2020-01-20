@@ -4,8 +4,8 @@ on:
   push:
     branches:
     - master
-    # paths:
-    # - current.html
+    paths:
+    - current.html
 
 jobs:
   copy-to-personal-site:

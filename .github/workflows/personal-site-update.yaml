@@ -28,7 +28,7 @@ jobs:
       run: |
         cd personal-site
         git add --all
-        git config user.email "actions@github.com"
+        git config user.email "josh.kasuboski@gmail.com"
         git config user.name "GitHub Actions"
         git commit -m "Update resume from ${GITHUB_REPOSITORY}@${GITHUB_SHA}"
         git push origin master

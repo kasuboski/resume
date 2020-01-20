@@ -1,3 +1,4 @@
+![](https://github.com/kasuboski/resume/workflows/personal-site-update/badge.svg)
 ## Current generation steps
 * Install resume-cli `npm install -g resume-cli`
 * Validation will fail so just serve instead `resume serve --theme onepage`

@@ -27,6 +27,8 @@ jobs:
     - name: Push Changes
       run: |
         cd personal-site
+        git remote rm origin || true
+        git remote add origin git@github.com:kasuboski/personal-site.git
         git add --all
         git config user.email "josh.kasuboski@gmail.com"
         git config user.name "GitHub Actions"

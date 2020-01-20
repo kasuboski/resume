@@ -4,8 +4,8 @@ on:
   push:
     branches:
     - master
-    paths:
-    - current.html
+    # paths:
+    # - current.html
 
 jobs:
   copy-to-personal-site:
@@ -17,7 +17,6 @@ jobs:
     - uses: actions/checkout@v2
       with:
         repository: kasuboski/personal-site
-        token: ${{ secrets.personal_site_key }}
         path: personal-site
     - name: Copy HTML to personal-site
       run: |
@@ -25,4 +24,8 @@ jobs:
         cd personal-site
         git add --all
         git commit -m "Update resume from ${GITHUB_REPOSITORY}@${GITHUB_SHA}"
-        git push origin master
+    - name: Push Changes
+    - uses: webfactory/ssh-agent@v0.2.0
+      with:
+        ssh-private-key: ${{ secrets.personal_site_key }}
+      run: git push origin master

@@ -16,13 +16,20 @@ jobs:
     - uses: actions/setup-go@v2
       with:
         go-version: '^1.13.6'
-    - name: Build
+    - name: Template html
       run: go run hack/template.go
+    - name: Html to pdf
+      uses: fifsky/html-to-pdf-action@master
+      with:
+        htmlFile: .resume.html
+        outputFile: resume.pdf
+        pdfOptions: '{"format": "Letter", "margin": {"top": ".4in", "left": ".4in", "right": ".4in", "bottom": ".4in"}}'
     - uses: actions/upload-artifact@v2
       with:
         name: resume
         path: |
           resume.html
+          resume.pdf
         if-no-files-found: error
     - name: Release
       uses: softprops/action-gh-release@v1

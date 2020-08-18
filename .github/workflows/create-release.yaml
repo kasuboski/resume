@@ -5,6 +5,7 @@ on:
     paths:
     - resume.json
     - hack/**
+    - .github/workflows/create-release.yaml
 
 jobs:
   build:

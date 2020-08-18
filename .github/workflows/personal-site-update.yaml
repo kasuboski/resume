@@ -2,7 +2,7 @@ name: personal-site-update
 
 on:
   release:
-    types: [released]
+    types: [published]
 
 jobs:
   copy-to-personal-site:

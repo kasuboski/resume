@@ -40,3 +40,32 @@ jobs:
           resume.pdf
       env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - uses: actions/checkout@v2
+      if: startsWith(github.ref, 'refs/tags/')
+      with:
+        repository: kasuboski/personal-site
+        path: personal-site
+    - name: Copy files to personal-site
+      if: startsWith(github.ref, 'refs/tags/')
+      run: |
+        cp resume.html personal-site/static/resume.html
+        cp resume.pdf personal-site/static/resume.pdf
+    - uses: webfactory/ssh-agent@v0.2.0
+      if: startsWith(github.ref, 'refs/tags/')
+      with:
+        ssh-private-key: ${{ secrets.personal_site_key }}
+    - name: Push Changes
+      if: startsWith(github.ref, 'refs/tags/')
+      run: |
+        cd personal-site
+        git remote rm origin || true
+        git remote add origin git@github.com:kasuboski/personal-site.git
+        git config user.email "josh.kasuboski@gmail.com"
+        git config user.name "GitHub Actions"
+        git add --all
+        if output=$(git status --porcelain) && [ -z "$output" ]; then
+          echo "No Changes"
+        else 
+          git commit -m "Update resume from ${GITHUB_REPOSITORY}@${GITHUB_SHA}"
+          git push origin master
+        fi

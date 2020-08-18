@@ -21,7 +21,7 @@ jobs:
     - name: Html to pdf
       uses: fifsky/html-to-pdf-action@master
       with:
-        htmlFile: .resume.html
+        htmlFile: resume.html
         outputFile: resume.pdf
         pdfOptions: '{"format": "Letter", "margin": {"top": ".4in", "left": ".4in", "right": ".4in", "bottom": ".4in"}}'
     - uses: actions/upload-artifact@v2

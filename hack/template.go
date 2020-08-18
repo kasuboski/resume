@@ -15,7 +15,7 @@ func main() {
 		log.Fatalf("couldn't read resume.json: %v", err)
 	}
 
-	f, err := os.Create("out.html")
+	f, err := os.Create("resume.html")
 	if err != nil {
 		log.Fatalf("couldn't open out.html: %v", err)
 	}

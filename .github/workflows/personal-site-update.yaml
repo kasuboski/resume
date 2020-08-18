@@ -1,26 +1,29 @@
 name: personal-site-update
 
 on:
-  push:
-    branches:
-    - master
-    paths:
-    - current.html
+  release:
+    types: [released]
 
 jobs:
   copy-to-personal-site:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: dsaltares/fetch-gh-release-asset@master
       with:
-        path: resume
+        repo: ${{ github.repository }}
+        version: ${{ github.ref }}
+        file: |
+          resume.html
+          resume.pdf
+        token: ${{ secrets.GITHUB_TOKEN }}
     - uses: actions/checkout@v2
       with:
         repository: kasuboski/personal-site
         path: personal-site
-    - name: Copy HTML to personal-site
+    - name: Copy files to personal-site
       run: |
-        cp resume/current.html personal-site/static/resume.html
+        cp resume.html personal-site/static/resume.html
+        cp resume.pdf personal-site/static/resume.pdf
     - uses: webfactory/ssh-agent@v0.2.0
       with:
         ssh-private-key: ${{ secrets.personal_site_key }}

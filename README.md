@@ -1,8 +1,4 @@
 ![](https://github.com/kasuboski/resume/workflows/personal-site-update/badge.svg)
 ## Current generation steps
-* Install resume-cli `npm install -g resume-cli`
-* Validation will fail so just serve instead `resume serve --theme onepage`
-* Copy html from generated public folder
-* Export pdf from browser
-
-Would be nice to figure out the validation to use the export commands. Seems the date format is pretty restrictive.
+* Create html with `go run hack/template.go`
+* Get pdf from browser

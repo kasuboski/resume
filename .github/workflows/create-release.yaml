@@ -18,7 +18,7 @@ jobs:
     - name: Build
       run: go run hack/template.go
     - name: Release
-      uses: softprops/actions-gh-release@v1
+      uses: softprops/action-gh-release@v1
       with:
         files: |
           resume.html

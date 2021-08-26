@@ -37,7 +37,8 @@
       "endDate": "current",
       "summary": "",
       "highlights": [
-        "Modernizing core deposits particularly to run multi-region in AWS EKS"
+        "Modernizing core deposits particularly to run multi-region in AWS EKS",
+        "Provisioned infrastructure using Terraform"
       ]
     },
     {

@@ -30,11 +30,22 @@
   },
   "work": [
     {
+      "company": "Chase",
+      "position": "Software Engineer",
+      "website": "",
+      "startDate": "April 2021",
+      "endDate": "current",
+      "summary": "",
+      "highlights": [
+        "Modernizing core deposits particularly to run multi-region in AWS EKS"
+      ]
+    },
+    {
       "company": "PNC",
       "position": "Senior Technology Engineer",
       "website": "",
       "startDate": "March 2019",
-      "endDate": "current",
+      "endDate": "April 2021",
       "summary": "",
       "highlights": [
         "Enabled declarative deployments for VMs and Containers",

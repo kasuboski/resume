@@ -50,7 +50,7 @@ jobs:
       run: |
         cp resume.html personal-site/static/resume.html
         cp resume.pdf personal-site/static/resume.pdf
-    - uses: webfactory/ssh-agent@v0.2.0
+    - uses: webfactory/ssh-agent@v0.5.3
       if: startsWith(github.ref, 'refs/tags/')
       with:
         ssh-private-key: ${{ secrets.personal_site_key }}

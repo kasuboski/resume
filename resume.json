@@ -30,11 +30,25 @@
   },
   "work": [
     {
+      "company": "Wallaroo AI",
+      "position": "Senior DevOps Engineer",
+      "website": "https://wallaroo.ai/",
+      "startDate": "December 2021",
+      "endDate": "current",
+      "summary": "",
+      "highlights": [
+        "Created a self-service portal to run sales demos",
+        "Automated E2E tests running in AWS, Azure, and Google",
+        "Contributed product features in Rust and Python",
+        "Managed GitHub Actions CI workflows and releases"
+      ]
+    },
+    {
       "company": "Chase",
       "position": "Software Engineer",
       "website": "",
       "startDate": "April 2021",
-      "endDate": "current",
+      "endDate": "December 2021",
       "summary": "",
       "highlights": [
         "Modernizing core deposits particularly to run multi-region in AWS EKS",
